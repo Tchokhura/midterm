@@ -105,3 +105,26 @@ h4 {
 .card__body h4 {
   @apply lg:text-[16px];
 }
+
+h2 {
+  font-family: "Poppins-SemiBold";
+}
+.card__footer {
+  @apply pt-6 m-0;
+}
+.card__footer p {
+  @apply text-[rgba(0,0,0,8)];
+}
+.card p {
+  @apply lg:text-[14px];
+}
+.card {
+  @apply px-4;
+}
+footer ul li a {
+  font-family: "Poppins-Medium";
+  @apply text-[16px] text-[rgba(255,255,255,1)] 2xl:text-[14px];
+}
+.card {
+  @apply px-4;
+}
