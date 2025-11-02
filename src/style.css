@@ -87,3 +87,21 @@ h4 {
 .save__icon {
   @apply cursor-pointer;
 }
+.price {
+  @apply text-[14px] text-[rgba(0,0,0,8)];
+}
+.price span {
+  font-family: "Poppins-Medium";
+}
+.card__footer p {
+  @apply text-[12px];
+}
+.card__header img {
+  @apply object-cover;
+}
+.vip p {
+  font-family: "Poppins-Medium";
+}
+.card__body h4 {
+  @apply lg:text-[16px];
+}
