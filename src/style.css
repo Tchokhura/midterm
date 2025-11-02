@@ -56,3 +56,34 @@ nav ul li span {
   font-family: "Poppins-Regular";
   @apply 2xl:text-[14px];
 }
+h1 {
+  font-family: "Poppins-SemiBold";
+  @apply text-[rgba(0,0,0,8)];
+}
+p {
+  @apply text-[rgba(89,89,89,0.8)];
+}
+h3,
+h4 {
+  font-family: "Poppins-Medium";
+}
+.main__heading__text p {
+  @apply text-[rgba(0,0,0,0.6)];
+}
+.location__form label {
+  font-family: "Poppins-Medium";
+}
+.property__form form,
+.price__range__form form {
+  @apply flex flex-col gap-2.5;
+}
+.property__form,
+.price__range__form label {
+  @apply text-[14px];
+}
+.form__group {
+  @apply block;
+}
+.save__icon {
+  @apply cursor-pointer;
+}
