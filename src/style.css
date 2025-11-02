@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../fonts/Poppins-Regular.woff2") format("woff2"),
+    url("../fonts/Poppins-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("../fonts/Poppins-SemiBold.woff2") format("woff2"),
+    url("../fonts/Poppins-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("../fonts/Poppins-Medium.woff2") format("woff2"),
+    url("../fonts/Poppins-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: "Poppins-Regular";
+  @apply leading-[100%] text-[rgba(0,0,0,1)];
+}
+button {
+  @apply cursor-pointer;
+}
+nav ul li img {
+  @apply w-6;
+}
+nav ul li a {
+  font-family: "Poppins-Medium";
+  @apply text-[11px];
+}
+nav ul li a,
+nav ul li span {
+  @apply flex flex-col items-center gap-1;
+}
+.lg-nav a {
+  @apply px-3 pb-2.5 relative after:content-[''] after:absolute after:bottom-px after:left-[0%] after:h-0.75 after:w-0 after:bg-[#29B24E] 
+          after:transition-all after:duration-200;
+}
+.lg-nav a:hover::after {
+  @apply w-[100%];
+}
+.lg-nav a {
+  font-family: "Poppins-Regular";
+  @apply 2xl:text-[14px];
+}
