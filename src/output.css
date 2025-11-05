@@ -316,6 +316,9 @@
   .w-14\! {
     width: calc(var(--spacing) * 14) !important;
   }
+  .w-110 {
+    width: calc(var(--spacing) * 110);
+  }
   .w-\[18px\] {
     width: 18px;
   }
