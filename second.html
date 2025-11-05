@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>house</title>
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+  <body class="bg-[#f2f2f2] relative pb-[156px] lg:pb-0">
+    <header
+      class="pt-9.5 pl-[22px] pr-[22px] lg:max-w-[900px] lg:m-auto lg:pl-0 lg:pr-0 2xl:max-w-[1640px] 2xl:pt-10"
+    >
+      <nav
+        class="fixed z-1 flex bottom-0 left-0 w-full bg-[#ffffff] shadow-[0px_1px_3px_0px_rgba(0,0,0,0.25)] rounded-tl-3xl rounded-tr-3xl pb-[15px] pt-3 lg:hidden"
+      >
+        <ul class="flex max-w-[335px] w-full m-auto justify-between">
+          <li>
+            <a href="#"><img src="img/home.svg" alt="home" />Home</a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/discover.svg" alt="discover" />Discover
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div
+                class="icon absolute flex flex-col items-center translate-y-[-35%] gap-[5px]"
+              >
+                <img
+                  class="w-14! rounded-xl bg-[#29B24E]"
+                  src="img/add.svg"
+                  alt="add"
+                />
+                <span>Sell</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#"> <img src="img/message.svg" alt="message" />Message </a>
+          </li>
+          <li>
+            <a href="#"> <img src="img/user.svg" alt="user" />Profile </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header-wrapper flex justify-between items-center">
+        <a href="#">
+          <img class="w-11 h-11 cursor-pointer" src="img/nav.png" alt="nav" />
+        </a>
+        <nav class="lg-nav hidden lg:flex">
+          <ul class="flex gap-12">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Sign In</a></li>
+          </ul>
+        </nav>
+        <div
+          class="search rounded-[50%] p-[13px] bg-[#FFFFFF] shadow-[0px_4px_25px_rgba(194,194,194,0.31)] cursor-pointer lg:hidden"
+        >
+          <a href="#">
+            <img class="w-[18px] h-[18px]" src="img/search.svg" alt="search" />
+          </a>
+        </div>
+        <div class="button max-lg:hidden">
+          <button
+            class="px-[26px] py-[13px] bg-[#29B24E] text-[#ffffff]! text-[14px] rounded-xl"
+          >
+            Sell Something
+          </button>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
