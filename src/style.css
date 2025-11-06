@@ -128,3 +128,16 @@ footer ul li a {
 .card {
   @apply px-4;
 }
+.card__second__categories__wrapper {
+  gap: 15px;
+  justify-content: space-between;
+}
+.card__second__categories__wrapper p {
+  @apply leading-[23px];
+}
+
+.card__second__text__scroll {
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
